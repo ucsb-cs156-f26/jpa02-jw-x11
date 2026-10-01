@@ -26,8 +26,8 @@ public class DeveloperTest {
         assertEquals("Junxi W.", Developer.getName());
     }
 
-    // @Test
-    // public void getGithubId_returns_correct_githubId() {
-    //     assertEquals("jw-x11", Developer.getGithubId());
-    // }
+    @Test
+    public void getGithubId_returns_correct_githubId() {
+        assertEquals("jw-x11", Developer.getGithubId());
+    }
 }
