@@ -19,8 +19,17 @@ public class TeamTest {
        assert(team.getName().equals("test-team"));
     }
 
-   
-    // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
-    // 100% mutation coverage (all mutants timed out or killed)
+       // 100% mutation coverage (all mutants timed out or killed)
+    // @Test
+    // public void teamToString() {
+    //     team.addMember("Bob");
+    //     team.addMember("Alice");
+    //     String expected = "Team(name=test-team, members=[Bob, Alice])";
+    //     assertEquals(expected, team.toString());
+    // }
 
+    // @Test
+    // public void teamHash() {
+    //     assert(team.hashCode());
+    // }
 }
