@@ -2,7 +2,7 @@
 
 Repo: https://github.com/ucsb-cs156-f26/jpa02-jw-x11
 
-Deployed at: https://jpa02-jw-x11.dokku-03.cs.ucsb.edu/info
+Deployed at: https://jpa02-jw-x11.dokku-03.cs.ucsb.edu
 
 
 # About this repo
