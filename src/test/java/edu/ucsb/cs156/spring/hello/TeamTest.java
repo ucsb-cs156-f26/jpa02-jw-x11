@@ -55,6 +55,29 @@ public class TeamTest {
     }
 
     @Test 
+    public void equal_member_test2(){
+        Team t1 = new Team();
+        t1.setName("bw");
+        t1.addMember("bar");
+        Team t2 = new Team();
+        t2.setName("foo");
+        t2.addMember("bar");
+        assertTrue(!t1.equals(t2));
+    }
+
+    @Test 
+    public void equal_member_test3(){
+        Team t1 = new Team();
+        t1.setName("abab");
+        t1.addMember("bar");
+        Team t2 = new Team();
+        t2.setName("abab");
+        t2.addMember("bar");
+        assertTrue(t1.equals(t2));
+    }
+
+
+    @Test 
     public void hashcode_check(){
         Team t1 = new Team();
         t1.setName("foo");
